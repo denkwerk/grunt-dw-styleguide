@@ -23,6 +23,6 @@ module.exports = function(grunt) {
             throw new Error('You must specify an output path.');
         }
 
-        styleguide(options.inputPath, options.docPath, options.outputPath);
+        styleguide(options);
     });
 };

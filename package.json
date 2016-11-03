@@ -13,7 +13,7 @@
   "repository": "https://github.com/denkwerk/grunt-dw-styleguide.git",
   "license": "MIT",
   "dependencies": {
-    "npm-dw-styleguide": "^0.2.0"
+    "npm-dw-styleguide": "^1.0.0"
   },
   "peerDependencies": {
     "grunt": "^1.0.1"
