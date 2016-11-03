@@ -11,6 +11,8 @@ module.exports = function(grunt) {
     grunt.registerMultiTask('dw-styleguide', function() {
         var options = this.options();
 
+        var done = this.async();
+
         if (!options.inputPath) {
             throw new Error('You must specify an input path.');
         }
@@ -23,6 +25,6 @@ module.exports = function(grunt) {
             throw new Error('You must specify an output path.');
         }
 
-        styleguide(options);
+        styleguide(options, done);
     });
 };
